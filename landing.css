@@ -1,0 +1,708 @@
+body {
+margin: 0px;
+max-width: 100vw;
+overflow-x: hidden;
+}
+
+/* Header */
+.logo {
+position: absolute;
+z-index: 99;
+width: 150px;
+padding-left: 50px;
+padding-top: 10px;
+}
+
+.logo-rectangle {
+position: absolute;
+width: 300px;
+height: 300px;
+left: -50px;
+top: -140px;
+margin: 0px 40px 0px 0px;
+z-index: 10;
+background: linear-gradient(99.95deg, #1D737E -2.54%, #4FB9C7 114.45%);
+border-radius: 57px;
+transform: rotate(-45deg);
+}
+
+.menu {
+display: inline;
+float: right;
+margin-top: 27px;
+margin-right: 40px;
+vertical-align: middle;
+}
+
+.menu img {
+  width: 30px;
+}
+
+header {
+  padding-bottom: 10vh;
+}
+/* --------------------------------------- */
+/* Fim do Header */
+
+/* Buttons */
+.button-blue1 {
+display: inline;
+float: right;
+padding: 5px 25px 5px 25px;
+vertical-align: middle;
+border-radius: 30px;
+height: 30px;
+margin-top: 25px;
+margin-right: 25px;
+background: linear-gradient(360deg, #1D737E -74.42%, #4FB9C7 154.17%);
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 0.8em;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #C2FF01!important;
+z-index: 10;
+}
+
+/* --------------------------------------- */
+/* Fim dos Buttons */
+
+/* Shapes */
+
+.section3::before {
+content: '';
+top: -45px;
+position: absolute;
+background: #C2FF01;
+border-radius: 26%;
+float: right;
+width: 90px;
+height: 90px;
+transform: rotate(-45deg);
+z-index: 100;
+margin-left: 35px;
+}
+
+.section2::before {
+content: '';
+top: 700px;
+position: absolute;
+background: #C2FF01;
+border-radius: 26%;
+width: 90px;
+height: 90px;
+transform: rotate(-45deg);
+z-index: 100;
+margin-left: 75px;
+}
+
+.section9 .rectangle0 {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: -60px;
+}
+
+.rectangle0 {
+text-align: center;
+background: #C2FF01;
+border-radius: 26%;
+width: 120px;
+height: 120px;
+transform: rotate(-45deg);
+z-index: 100;
+}
+
+.rectangle0 img {
+transform: rotate(45deg);
+margin: 25px;
+width: 60px;
+}
+
+.rectangle1 {
+position: absolute;
+background: #C2FF01;
+float: left;
+border-radius: 26%;
+width: 250px;
+height: 250px;
+margin-left: 170px;
+transform: rotate(-45deg);
+}
+
+.rectangle2 {
+border: 1px solid;
+position: absolute;
+border-radius: 15%;
+width: 350px;
+height: 350px;
+margin-top: 470px;
+left: -200px;
+transform: rotate(-45deg);
+}
+
+.rectangle3 {
+border: 1px solid;
+position: absolute;
+border-radius: 15%;
+width: 350px;
+height: 350px;
+margin-top: 570px;
+left: -200px;
+transform: rotate(-45deg);
+}
+
+.rectangle4 {
+margin-top: 150px;
+left: 800px;
+position: absolute;
+border-radius: 57px;
+transform: rotate(-45deg);
+float: right;
+border-radius: 26%;
+width: 900px;
+height: 900px;
+background: rgb(255,255,255);
+background: linear-gradient(360deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.5) 90%);
+}
+
+.rectangle5 {
+margin-top: 150px;
+top: 100px;
+left: 850px;
+position: absolute;
+border-radius: 57px;
+transform: rotate(-45deg);
+float: right;
+border-radius: 10%;
+width: 200px;
+height: 200px;
+background: rgb(255,255,255);
+}
+
+.rectangle6 {
+margin-top: 150px;
+top: 100px;
+left: 870px;
+position: absolute;
+border-radius: 57px;
+transform: rotate(-45deg);
+float: right;
+border-radius: 10%;
+width: 360px;
+height: 360px;
+background: rgb(255,255,255,0.3);
+background: linear-gradient(190deg, #197081 0%, rgba(25, 112, 129, 0) 100%);
+}
+
+.rectangle7 {
+margin-top: 110px;
+top: 100px;
+left: 1020px;
+position: absolute;
+border-radius: 57px;
+transform: rotate(-45deg);
+float: right;
+border-radius: 10%;
+width: 360px;
+height: 360px;
+background: rgb(255,255,255,0);
+border: 1px solid #C2FF01;
+z-index: 2;
+}
+
+.rectangle8 {
+margin-top: 130px;
+top: 100px;
+left: 900px;
+position: absolute;
+float: right;
+border-radius: 10%;
+width: 400px;
+height: 400px;
+background: url(img/guy2.png);
+background-size: cover;
+}
+
+.rectangle8 img {
+transform: rotate(45deg);
+}
+
+/* --------------------------------------- */
+/* Fim dos Rectangles */
+
+/* Titles */
+.title1 {
+font-family: Oswald;
+font-style: normal;
+font-size: 1.7em;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+}
+
+.title3 {
+font-family: Oswald;
+font-style: normal;
+font-weight: bold;
+font-size: 2em;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+}
+
+.text1 {
+width: 420px;
+height: 100px;
+top: 400px;
+font-family: Fira Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 0.8em;
+line-height: 150%;
+color: #000000;
+}
+
+.green {
+  color: #C2FF01!important;
+}
+
+.subtitle1 {
+font-family: Fira Sans;
+font-style: normal;
+font-weight: 800;
+font-size: 0.8em;
+line-height: 1em;
+text-align: center;
+}
+
+.rectangle-black1 {
+width: 414px;
+height: 46px;
+background: #000000;
+color: #C2FF01!important;
+padding: 0px 15px 0px 15px;
+border-radius: 8px;
+}
+
+.button-green1 {
+width: 420px;
+height: 45px;
+background: #C2FF01;
+border-radius: 30px;
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 1em;
+line-height: 2.7em;
+letter-spacing: 0.1em;
+text-align: center;
+text-transform: uppercase;
+color: #000000;
+}
+
+
+/* First Section */
+.section1 {
+height: 100vh;
+background: linear-gradient(220.36deg, rgba(25, 112, 129, 0.32) 0%, rgba(247, 247, 249, 0) 64.63%);
+position: relative;
+}
+
+.section1 .container {
+padding-top: 150px;
+}
+
+.section1 .title1 {
+width: 500px;
+height: 220px;
+line-height: 150%;
+color: #000000;
+font-weight: bold;
+}
+
+/* --------------------------------------- */
+/* Fim da First Section */
+
+/* Second Section */
+.section2 {
+min-height: 80vh;
+padding-top: 20vh;
+padding-bottom: 20vh;
+}
+
+
+
+.section2 .container img {
+width: 100%;
+z-index: 100;
+}
+
+.section2 .title1 {
+margin-top: 25px;
+margin-bottom: 25px;
+width: 400px;
+color: #000000;
+font-weight: 200;
+}
+
+.subtitle2 {
+font-family: Oswald;
+font-style: normal;
+font-weight: bold;
+font-size: 1em;
+line-height: 1.4em;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+}
+
+.text2 {
+margin-top: 30px;
+width: 420px;
+top: 400px;
+font-family: Fira Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 0.8em;
+line-height: 150%;
+color: #000000;
+}
+
+/* --------------------------------------- */
+/* Fim da Second Section */
+
+/* Third Section */
+
+.section3 {
+background: url(img/bg1.png);
+background-position: top!important;
+background-size:cover;
+transform:scaleX(-1);
+background-position: right;
+background-blend-mode: exclusion;
+opacity: 1;
+min-height: 40vh;
+}
+
+.overlay {
+background-color: rgba(0,0,0,0.6);
+min-height: 40vh;
+}
+
+.overlay .container {
+padding-top: 10vh;
+padding-bottom: 10vh;
+transform:scaleX(-1);
+}
+
+.overlay img {
+height: 150px;
+/* No teste eu notei que havia uma borda preta em todos os cantos da imagem, porém acho que foi um erro
+de vocês... Optei por não inseri-la por questões de estética.
+border: 1px solid #000000;
+*/
+}
+.overlay .title3 {
+width: 100px;
+color: #FFFFFF!important;
+}
+
+.overlay .text3 {
+font-family: Fira Sans;
+font-style: normal;
+font-size: 0.8em;
+line-height: 120%;
+color: #FFFFFF!important;
+}
+
+/* --------------------------------------- */
+/* Fim da Third Section */
+
+/* Fourth Section */
+.section4 {
+background-color: rgba(255,255,255,255,1);
+padding-top: 10vh;
+min-height: 40vh;
+padding-bottom: 10vh;
+}
+
+.section4 .title4 {
+text-align: right;
+font-family: Oswald;
+font-style: normal;
+font-weight: bold;
+font-size: 2em;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #000000!important;
+}
+
+.section4 .text4 {
+font-family: Fira Sans;
+font-style: normal;
+font-size: 0.8em;
+line-height: 120%;
+color: #000000!important;
+}
+
+.button-social {
+width: 30px;
+height: 30px;
+background: linear-gradient(59.46deg, #1D737E -67.96%, #4FB9C7 103.75%);
+border-radius: 30px;
+}
+
+/* --------------------------------------- */
+/* Fim da Fourth Section */
+
+/* Sixth Section */
+
+.section6 {
+  padding-top: 10vh;
+  padding-bottom: 20vh;
+  min-height: 80vh;
+  text-align: -webkit-center;
+}
+
+.section6 .container {
+  text-align: -webkit-center;
+}
+
+.section6 .title3 {
+  color: #000000;
+  text-align: left;
+}
+
+.section6 .text1 {
+  text-align: left;
+}
+
+.section6 .col-md-2 img {
+  width: 6em;
+}
+
+.section6 .subtitle2 {
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+  text-align: center;
+  color: #000000;
+}
+
+/* --------------------------------------- */
+/* Fim da Sixth Section */
+
+/* Seventh Section */
+
+.section7 {
+background: url(img/bg1.png);
+background-attachment: fixed;
+  background-position: 30% 10%;
+background-blend-mode: exclusion;
+background-size: auto;
+opacity: 1;
+min-height: 60vh;
+}
+
+.section7 h1 {
+  color: #ffffff;
+}
+
+.section7 .button-green1 {
+  vertical-align: middle;
+}
+
+.overlay2 {
+background-color: rgba(0,0,0,0.6);
+min-height: 60vh;
+}
+
+.overlay2 .container {
+padding-top: 10vh;
+padding-bottom: 10vh;
+}
+
+.overlay2 img {
+height: 150px;
+/* No teste eu notei que havia uma borda preta em todos os cantos da imagem, porém acho que foi um erro
+de vocês... Optei por não inseri-la por questões de estética.
+border: 1px solid #000000;
+*/
+}
+.overlay2 .title3 {
+width: 100px;
+color: #FFFFFF!important;
+}
+
+.overlay2 .text3 {
+font-family: Fira Sans;
+font-style: normal;
+font-size: 0.8em;
+line-height: 120%;
+color: #FFFFFF!important;
+}
+
+/* --------------------------------------- */
+/* Fim da Seventh Section */
+
+/* Nineth Section */
+
+.section9 {
+position: relative;
+padding-bottom: 15vh;
+padding-top: 15vh;
+min-height: 100vh;
+background-color: #000000;
+}
+
+.section9 h1 {
+padding-top: 5vh;
+color: #ffffff;
+}
+
+.section9 p {
+padding-top: 30px;
+padding-bottom: 30px;
+color: #ffffff;
+text-align: center;
+width: 50vw;
+}
+
+.section9 .subtitle2 {
+color: #C2FF01;
+width: 400px;
+}
+
+.approved {
+position: relative;
+margin-top: 90px;
+background: #C2FF01;
+padding: 40px 30px;
+max-width: 400px;
+border-radius: 10px;
+}
+
+.approved::before {
+content: '';
+top: -65px;
+left: 170px;
+background: url(img/approved.svg);
+width: 45px;
+height: 45px;
+position: absolute;
+z-index: 100;
+  }
+
+.disapproved {
+margin-top: 90px;
+position: relative;
+background: #D50033;
+color: #ffffff;
+padding: 40px 30px;
+max-width: 400px;
+border-radius: 10px;
+}
+
+.disapproved::before {
+content: '';
+top: -65px;
+left: 170px;
+background: url(img/disapproved.svg);
+width: 45px;
+height: 45px;
+position: absolute;
+z-index: 100;
+  }
+
+/* --------------------------------------- */
+/* Fim da Nineth Section */
+
+/* Footer */
+
+.bigfooter {
+max-height: 95vh;
+padding-top: 10vh;
+background: linear-gradient(180deg, #171717 41.46%, rgba(0, 0, 0, 1) 100%);
+}
+
+.bigfooter h1 {
+font-family: Oswald;
+font-style: normal;
+color: #FFFFFF;
+font-weight: bold;
+font-size: 0.9em;
+line-height: 1.3em;
+text-align: center;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+margin-bottom: 50px;
+}
+
+.bigfooter img { width: 60vw;}
+
+footer {
+background-color: #000000;
+padding-top: 10vh;
+padding-bottom: 10vh;
+}
+
+footer p {
+font-family: Fira Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 0.8em;
+text-align: center;
+padding-top: 40px;
+color: #FFFFFF!important;
+}
+
+/* --------------------------------------- */
+/* Fim do Footer */
+
+
+/* Media Query */
+
+@media (max-width: 768px) {
+
+
+  .title1 { font-size: 1.3em; }
+
+  .logo { width: 21% }
+
+  .logo-rectangle {
+    width: 42%;
+    top: -170px;
+  }
+
+  .title4 {
+    text-align: center!important;
+  }
+
+  .approved, .disapproved {
+    float: none;
+  }
+
+  .section9 .col-md-6 {
+    align-content: center;
+  }
+
+  .section3 img {
+    display: none;
+  }
+
+  .section4 .title4 {
+    text-align: center;
+  }
+
+  .section7 .sm-12 {
+    padding-bottom: 5vh;
+  }
+
+  .rectangle2, .rectangle3, .rectangle4, .rectangle5, .rectangle6, .rectangle7, .rectangle8 { display: none; }
+
+  .section6 .title3 {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
+
+}
